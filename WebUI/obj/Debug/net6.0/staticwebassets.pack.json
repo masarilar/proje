@@ -1,0 +1,3057 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\css\\style.bundle.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.bundle.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\css\\ugurlu.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ugurlu.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\blockUI.js",
+      "PackagePath": "staticwebassets\\assets\\js\\blockUI.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\account\\api-keys\\api-keys.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\account\\api-keys\\api-keys.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\account\\billing\\general.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\account\\billing\\general.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\account\\referrals\\referral-program.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\account\\referrals\\referral-program.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\account\\security\\license-usage.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\account\\security\\license-usage.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\account\\security\\security-summary.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\account\\security\\security-summary.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\account\\settings\\deactivate-account.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\account\\settings\\deactivate-account.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\account\\settings\\profile-details.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\account\\settings\\profile-details.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\account\\settings\\signin-methods.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\account\\settings\\signin-methods.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\calendar\\calendar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\calendar\\calendar.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\chat\\chat.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\chat\\chat.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\contacts\\edit-contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\contacts\\edit-contact.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\contacts\\view-contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\contacts\\view-contact.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\customers\\add.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\customers\\add.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\customers\\list\\export.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\customers\\list\\export.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\customers\\list\\list.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\customers\\list\\list.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\customers\\update.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\customers\\update.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\customers\\view\\add-payment.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\customers\\view\\add-payment.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\customers\\view\\adjust-balance.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\customers\\view\\adjust-balance.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\customers\\view\\invoices.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\customers\\view\\invoices.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\customers\\view\\payment-method.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\customers\\view\\payment-method.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\customers\\view\\payment-table.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\customers\\view\\payment-table.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\customers\\view\\statement.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\customers\\view\\statement.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\catalog\\categories.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\catalog\\categories.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\catalog\\products.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\catalog\\products.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\catalog\\save-category.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\catalog\\save-category.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\catalog\\save-product.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\catalog\\save-product.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\add-address.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\add-address.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\add-auth-app.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\add-auth-app.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\add-one-time-password.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\add-one-time-password.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\transaction-history.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\transaction-history.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\update-address.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\update-address.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\update-password.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\update-password.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\update-phone.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\update-phone.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\update-profile.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\customers\\details\\update-profile.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\customers\\listing\\add.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\customers\\listing\\add.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\customers\\listing\\export.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\customers\\listing\\export.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\customers\\listing\\listing.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\customers\\listing\\listing.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\reports\\customer-orders\\customer-orders.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\reports\\customer-orders\\customer-orders.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\reports\\returns\\returns.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\reports\\returns\\returns.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\reports\\sales\\sales.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\reports\\sales\\sales.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\reports\\shipping\\shipping.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\reports\\shipping\\shipping.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\reports\\views\\views.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\reports\\views\\views.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\sales\\listing.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\sales\\listing.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\sales\\save-order.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\sales\\save-order.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\ecommerce\\settings\\settings.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\ecommerce\\settings\\settings.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\file-manager\\list.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\file-manager\\list.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\file-manager\\settings.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\file-manager\\settings.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\inbox\\compose.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\inbox\\compose.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\inbox\\listing.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\inbox\\listing.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\inbox\\reply.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\inbox\\reply.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\invoices\\create.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\invoices\\create.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\projects\\list\\list.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\projects\\list\\list.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\projects\\project\\project.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\projects\\project\\project.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\projects\\settings\\settings.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\projects\\settings\\settings.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\projects\\targets\\targets.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\projects\\targets\\targets.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\projects\\users\\users.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\projects\\users\\users.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\subscriptions\\add\\advanced.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\subscriptions\\add\\advanced.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\subscriptions\\add\\customer-select.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\subscriptions\\add\\customer-select.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\subscriptions\\add\\products.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\subscriptions\\add\\products.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\subscriptions\\list\\export.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\subscriptions\\list\\export.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\subscriptions\\list\\list.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\subscriptions\\list\\list.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\support-center\\general.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\support-center\\general.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\support-center\\tickets\\create.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\support-center\\tickets\\create.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\permissions\\add-permission.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\permissions\\add-permission.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\permissions\\list.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\permissions\\list.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\permissions\\update-permission.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\permissions\\update-permission.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\roles\\list\\add.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\roles\\list\\add.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\roles\\list\\update-role.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\roles\\list\\update-role.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\roles\\view\\update-role.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\roles\\view\\update-role.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\roles\\view\\view.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\roles\\view\\view.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\list\\add.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\list\\add.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\list\\export-users.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\list\\export-users.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\list\\table.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\list\\table.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\view\\add-auth-app.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\view\\add-auth-app.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\view\\add-one-time-password.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\view\\add-one-time-password.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\view\\add-schedule.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\view\\add-schedule.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\view\\add-task.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\view\\add-task.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\view\\update-details.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\view\\update-details.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\view\\update-email.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\view\\update-email.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\view\\update-password.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\view\\update-password.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\view\\update-role.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\view\\update-role.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\apps\\user-management\\users\\view\\view.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\apps\\user-management\\users\\view\\view.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\authentication\\reset-password\\new-password.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\authentication\\reset-password\\new-password.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\authentication\\reset-password\\reset-password.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\authentication\\reset-password\\reset-password.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\authentication\\sign-in\\general.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\authentication\\sign-in\\general.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\authentication\\sign-in\\i18n.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\authentication\\sign-in\\i18n.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\authentication\\sign-in\\two-steps.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\authentication\\sign-in\\two-steps.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\authentication\\sign-up\\coming-soon.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\authentication\\sign-up\\coming-soon.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\authentication\\sign-up\\general.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\authentication\\sign-up\\general.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\landing.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\landing.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\layout-builder\\layout-builder.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\layout-builder\\layout-builder.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\pages\\careers\\apply.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\pages\\careers\\apply.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\pages\\general\\contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\pages\\general\\contact.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\pages\\general\\pos.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\pages\\general\\pos.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\pages\\pricing\\general.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\pages\\pricing\\general.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\pages\\social\\feeds.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\pages\\social\\feeds.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\pages\\user-profile\\general.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\pages\\user-profile\\general.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\bidding.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\bidding.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-account.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-account.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-api-key.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-api-key.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-app.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-app.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-campaign.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-campaign.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-project\\budget.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-project\\budget.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-project\\complete.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-project\\complete.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-project\\files.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-project\\files.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-project\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-project\\main.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-project\\settings.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-project\\settings.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-project\\targets.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-project\\targets.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-project\\team.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-project\\team.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\create-project\\type.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\create-project\\type.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\new-address.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\new-address.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\new-card.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\new-card.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\new-target.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\new-target.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\offer-a-deal\\complete.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\offer-a-deal\\complete.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\offer-a-deal\\details.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\offer-a-deal\\details.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\offer-a-deal\\finance.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\offer-a-deal\\finance.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\offer-a-deal\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\offer-a-deal\\main.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\offer-a-deal\\type.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\offer-a-deal\\type.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\select-location.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\select-location.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\share-earn.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\share-earn.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\top-up-wallet.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\top-up-wallet.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\two-factor-authentication.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\two-factor-authentication.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\upgrade-plan.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\upgrade-plan.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\modals\\users-search.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\modals\\users-search.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\utilities\\search\\horizontal.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\utilities\\search\\horizontal.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\custom\\widgets.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\widgets.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\scripts.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scripts.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\dropzone.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\fileinput\\fileinput.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\fileinput\\fileinput.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\fileinput\\locales\\LANG.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\fileinput\\locales\\LANG.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\fileinput\\locales\\tr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\fileinput\\locales\\tr.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\fileinput\\plugins\\piexif.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\fileinput\\plugins\\piexif.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\fileinput\\plugins\\purify.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\fileinput\\plugins\\purify.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\fileinput\\plugins\\sortable.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\fileinput\\plugins\\sortable.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\files\\Moxie.swf",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\files\\Moxie.swf"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\files\\Moxie.xap",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\files\\Moxie.xap"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\ar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\ar.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\az.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\az.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\bg.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\bg.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\bs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\bs.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\ca.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\ca.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\cs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\cs.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\cy.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\cy.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\da.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\da.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\de.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\de.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\el.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\el.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\en.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\en.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\es.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\es.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\et.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\et.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\fa.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\fa.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\fi.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\fi.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\fr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\fr.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\he.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\he.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\hr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\hr.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\hu.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\hu.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\hy.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\hy.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\id.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\id.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\it.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\it.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\ja.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\ja.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\ka.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\ka.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\kk.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\kk.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\km.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\km.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\ko.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\ko.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\ku_IQ.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\ku_IQ.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\lt.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\lt.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\lv.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\lv.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\ms.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\ms.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\nl.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\nl.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\pl.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\pl.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\pt.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\pt.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\pt_BR.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\pt_BR.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\ro.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\ro.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\ru.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\ru.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\sk.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\sk.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\sl.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\sl.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\sq.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\sq.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\sr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\sr.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\sv.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\sv.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\th_TH.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\th_TH.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\tr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\tr.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\uk_UA.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\uk_UA.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\vi.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\vi.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\zh_CN.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\zh_CN.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\i18n\\zh_TW.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\i18n\\zh_TW.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\plupload.full.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\plupload.full.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\uploaders\\plupload\\plupload.queue.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\uploaders\\plupload\\plupload.queue.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\js\\widgets.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\js\\widgets.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\404-error-dark.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\404-error-dark.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\404-error.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\404-error.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\500-error-dark.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\500-error-dark.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\500-error.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\500-error.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\agency-dark.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\agency-dark.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\agency.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\agency.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg1-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg1-dark.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg1.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg10-dark.jpeg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg10-dark.jpeg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg10.jpeg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg10.jpeg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg11.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg11.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg3-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg3-dark.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg3.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg3.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg4-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg4-dark.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg4.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg4.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg5-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg5-dark.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg5.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg5.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg6-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg6-dark.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg6.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg6.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg7-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg7-dark.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg7.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg7.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg8-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg8-dark.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg8.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg8.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg9-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg9-dark.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\bg9.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\bg9.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\chart-graph-dark.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\chart-graph-dark.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\chart-graph.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\chart-graph.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\membership-dark.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\membership-dark.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\membership.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\membership.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\ok-dark.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\ok-dark.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\ok.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\ok.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\please-verify-your-email-dark.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\please-verify-your-email-dark.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\please-verify-your-email.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\please-verify-your-email.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\welcome-dark.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\welcome-dark.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\auth\\welcome.png",
+      "PackagePath": "staticwebassets\\assets\\media\\auth\\welcome.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-1.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-10.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-11.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-12.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-13.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-131.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-131.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-14.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-16.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-19.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-19.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-2.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-20.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-20.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-21.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-21.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-23.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-23.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-25.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-25.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-27.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-27.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-28.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-28.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-29.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-29.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-3.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-30.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-30.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-4.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-5.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-6.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-7.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\avatars\\300-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\avatars\\300-9.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\icon-dribbble.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\icon-dribbble.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\icon-facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\icon-facebook.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\icon-linkedin.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\icon-linkedin.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\icon-polygon.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\icon-polygon.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\icon-positive-vote-1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\icon-positive-vote-1.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\icon-positive-vote-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\icon-positive-vote-2.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\icon-positive-vote-3.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\icon-positive-vote-3.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\icon-positive-vote-4.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\icon-positive-vote-4.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\icon-twitter.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\icon-twitter.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\img-1.png",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\img-1.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\img-2.png",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\img-2.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\img-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\img-4.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\img-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\img-5.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\img-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\img-6.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\logo-1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\logo-1.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\email\\logo-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\email\\logo-2.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\flags\\australia.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\flags\\australia.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\flags\\brazil.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\flags\\brazil.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\flags\\france.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\flags\\france.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\flags\\germany.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\flags\\germany.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\flags\\india.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\flags\\india.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\flags\\japan.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\flags\\japan.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\flags\\spain.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\flags\\spain.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\flags\\sweden.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\flags\\sweden.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\flags\\turkey.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\flags\\turkey.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\flags\\united-kingdom.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\flags\\united-kingdom.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\flags\\united-states.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\flags\\united-states.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\icons\\duotune\\ecommerce\\ecm001.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\duotune\\ecommerce\\ecm001.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\icons\\duotune\\ecommerce\\ecm006.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\icons\\duotune\\ecommerce\\ecm006.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sigma-1\\17-dark.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sigma-1\\17-dark.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\1.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\1.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\12.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\12.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\15.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\15.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\16.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\16.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\17.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\17.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\19.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\19.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\2.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\2.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\20.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\20.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\3.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\3.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\4.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\4.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\5.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\5.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\6.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\6.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\7.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\7.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\8.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\8.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\illustrations\\sketchy-1\\9.png",
+      "PackagePath": "staticwebassets\\assets\\media\\illustrations\\sketchy-1\\9.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\custom-1.png",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\custom-1.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\custom-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\custom-2.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\custom-3.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\custom-3.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\default-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\default-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\default.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\default.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\demo39-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\demo39-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\demo39.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\demo39.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\landing-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\landing-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\landing.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\landing.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\ugurlu-background.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\ugurlu-background.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\logos\\ugurlu-logo.png",
+      "PackagePath": "staticwebassets\\assets\\media\\logos\\ugurlu-logo.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\misc\\auth-bg.png",
+      "PackagePath": "staticwebassets\\assets\\media\\misc\\auth-bg.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\misc\\auth-screens.png",
+      "PackagePath": "staticwebassets\\assets\\media\\misc\\auth-screens.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\misc\\layout\\header-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\misc\\layout\\header-bg.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\misc\\menu-header-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\misc\\menu-header-bg.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\misc\\pattern-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\misc\\pattern-4.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\misc\\qr.png",
+      "PackagePath": "staticwebassets\\assets\\media\\misc\\qr.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\preview\\demos\\demo1\\light-ltr.png",
+      "PackagePath": "staticwebassets\\assets\\media\\preview\\demos\\demo1\\light-ltr.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\preview\\demos\\demo2\\light-ltr.png",
+      "PackagePath": "staticwebassets\\assets\\media\\preview\\demos\\demo2\\light-ltr.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\preview\\demos\\demo39\\dark-ltr.png",
+      "PackagePath": "staticwebassets\\assets\\media\\preview\\demos\\demo39\\dark-ltr.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\preview\\demos\\demo39\\light-ltr.png",
+      "PackagePath": "staticwebassets\\assets\\media\\preview\\demos\\demo39\\light-ltr.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\preview\\demos\\demo4\\light-ltr.png",
+      "PackagePath": "staticwebassets\\assets\\media\\preview\\demos\\demo4\\light-ltr.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\preview\\demos\\demo5\\light-ltr.png",
+      "PackagePath": "staticwebassets\\assets\\media\\preview\\demos\\demo5\\light-ltr.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\preview\\demos\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\preview\\demos\\placeholder.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\1600x800\\img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\1600x800\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\1.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\2.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-10.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-14.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-15.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-17.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-17.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-18.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-18.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-19.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-19.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-20.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-20.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-21.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-21.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-23.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-23.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-24.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-24.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-25.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-25.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-26.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-26.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-27.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-27.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-29.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-29.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-31.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-31.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-34.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-34.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-4.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-40.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-40.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-47.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-47.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-5.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-6.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-7.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-71.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-71.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-73.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-73.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-74.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-74.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-79.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-79.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-8.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x400\\img-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x400\\img-9.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-10.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-11.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-12.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-14.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-15.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-16.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-18.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-18.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-20.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-20.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-21.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-21.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-22.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-22.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-23.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-23.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-25.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-25.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-26.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-26.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-30.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-30.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-31.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-31.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-33.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-33.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-35.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-35.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-39.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-39.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-40.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-40.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-42.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-42.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-43.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-43.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-45.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-45.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-46.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-46.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-47.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-47.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-48.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-48.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-49.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-49.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-54.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-54.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-55.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-55.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-56.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-56.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-57.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-57.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-58.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-58.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-59.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-59.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-60.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-60.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-61.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-61.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-62.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-62.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-63.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-63.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\600x600\\img-64.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\600x600\\img-64.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\900x600\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\900x600\\12.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\900x600\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\900x600\\13.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\900x600\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\900x600\\15.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\900x600\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\900x600\\16.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\900x600\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\900x600\\19.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\900x600\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\900x600\\20.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\900x600\\40.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\900x600\\40.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\900x600\\41.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\900x600\\41.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\900x600\\42.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\900x600\\42.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\1.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\1.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\10.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\10.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\100.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\100.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\11.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\11.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\12.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\12.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\123.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\123.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\13.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\13.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\14.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\14.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\15.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\15.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\151.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\151.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\16.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\16.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\169.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\169.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\17.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\17.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\177.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\177.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\178.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\178.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\18.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\18.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\19.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\19.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\192.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\192.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\193.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\193.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\194.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\194.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\197.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\197.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\2.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\2.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\20.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\20.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\207.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\207.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\209.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\209.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\21.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\21.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\210.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\210.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\211.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\211.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\214.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\214.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\215.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\215.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\22.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\22.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\23.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\23.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\24.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\24.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\25.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\25.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\26.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\26.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\27.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\27.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\28.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\28.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\29.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\29.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\3.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\3.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\30.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\30.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\31.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\31.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\32.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\32.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\33.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\33.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\34.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\34.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\35.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\35.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\36.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\36.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\37.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\37.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\38.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\38.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\39.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\39.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\4.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\4.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\40.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\40.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\41.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\41.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\42.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\42.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\43.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\43.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\44.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\44.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\45.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\45.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\46.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\46.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\47.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\47.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\48.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\48.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\49.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\49.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\5.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\5.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\50.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\50.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\52.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\52.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\53.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\53.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\58.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\58.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\59.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\59.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\6.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\6.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\63.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\63.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\68.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\68.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\7.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\7.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\71.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\71.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\76.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\76.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\78.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\78.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\8.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\8.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\9.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\9.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\96.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\96.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\ecommerce\\98.gif",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\ecommerce\\98.gif"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\food\\img-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\food\\img-10.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\food\\img-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\food\\img-11.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\food\\img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\food\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\food\\img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\food\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\food\\img-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\food\\img-4.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\food\\img-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\food\\img-5.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\food\\img-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\food\\img-7.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\food\\img-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\food\\img-8.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\stock\\food\\img-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\media\\stock\\food\\img-9.jpg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\avatars\\001-boy.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\avatars\\001-boy.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\avatars\\004-boy-1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\avatars\\004-boy-1.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\avatars\\006-girl-3.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\avatars\\006-girl-3.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\avatars\\014-girl-7.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\avatars\\014-girl-7.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\avatars\\018-girl-9.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\avatars\\018-girl-9.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\avatars\\020-girl-11.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\avatars\\020-girl-11.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\avatars\\029-boy-11.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\avatars\\029-boy-11.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\avatars\\043-boy-18.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\avatars\\043-boy-18.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\avatars\\047-girl-25.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\avatars\\047-girl-25.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\avatars\\blank-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\avatars\\blank-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\avatars\\blank.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\avatars\\blank.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\amazon-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\amazon-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\amazon.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\amazon.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\angular-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\angular-icon.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\aon.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\aon.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\apple-black-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\apple-black-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\apple-black.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\apple-black.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\aspnetzero.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\aspnetzero.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\atica.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\atica.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\aven.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\aven.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\balloon.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\balloon.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\beats-electronics.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\beats-electronics.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\bebo.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\bebo.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\behance.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\behance.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\bootstrap5.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\bootstrap5.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\bp-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\bp-2.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\code-lab.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\code-lab.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\disqus.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\disqus.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\dribbble-icon-1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\dribbble-icon-1.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\duolingo.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\duolingo.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\facebook-3.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\facebook-3.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\facebook-4.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\facebook-4.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\figma-1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\figma-1.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\fox-hub.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\fox-hub.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\fujifilm.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\fujifilm.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\github.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\github.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\google-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\google-icon.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\hp-3.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\hp-3.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\instagram-2-1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\instagram-2-1.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\invision.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\invision.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\kanba.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\kanba.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\kickstarter.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\kickstarter.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\kpmg.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\kpmg.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\laravel-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\laravel-2.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\leaf.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\leaf.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\linkedin-1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\linkedin-1.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\linkedin-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\linkedin-2.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\lloyds-of-london-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\lloyds-of-london-logo.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\nasa.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\nasa.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\pinterest-p.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\pinterest-p.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\plurk.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\plurk.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\reddit.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\reddit.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\sentry-3.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\sentry-3.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\slack-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\slack-icon.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\spotify.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\spotify.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\spring-3.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\spring-3.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\telegram-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\telegram-2.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\telegram.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\telegram.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\tower.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\tower.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\treva.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\treva.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\truman.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\truman.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\tvit.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\tvit.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\twitch.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\twitch.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\twitter-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\twitter-2.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\twitter.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\twitter.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\typescript-1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\typescript-1.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\vimeo.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\vimeo.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\vodafone.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\vodafone.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\volicity-9.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\volicity-9.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\vue-9.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\vue-9.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\xing-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\xing-icon.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\youtube-3.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\youtube-3.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\brand-logos\\youtube-play.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\brand-logos\\youtube-play.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\card-logos\\american-express.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\card-logos\\american-express.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\card-logos\\mastercard.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\card-logos\\mastercard.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\card-logos\\visa.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\card-logos\\visa.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\coins\\binance.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\coins\\binance.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\coins\\bitcoin.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\coins\\bitcoin.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\coins\\chainlink.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\coins\\chainlink.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\coins\\coin.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\coins\\coin.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\coins\\ethereum.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\coins\\ethereum.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\coins\\filecoin.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\coins\\filecoin.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\ai-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\ai-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\ai.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\ai.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\blank-image-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\blank-image-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\blank-image.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\blank-image.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\css-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\css-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\css.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\css.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\doc-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\doc-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\doc.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\doc.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\folder-document-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\folder-document-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\folder-document.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\folder-document.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\pdf-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\pdf-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\pdf.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\pdf.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\sql-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\sql-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\sql.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\sql.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\tif-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\tif-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\tif.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\tif.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\upload.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\upload.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\xml-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\xml-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\files\\xml.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\files\\xml.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\food-icons\\cheeseburger.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\food-icons\\cheeseburger.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\food-icons\\cheesecake.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\food-icons\\cheesecake.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\food-icons\\coffee.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\food-icons\\coffee.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\food-icons\\salad.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\food-icons\\salad.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\food-icons\\spaghetti.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\food-icons\\spaghetti.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\illustrations\\easy\\1-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\illustrations\\easy\\1-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\illustrations\\easy\\1.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\illustrations\\easy\\1.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\illustrations\\easy\\2-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\illustrations\\easy\\2-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\illustrations\\easy\\2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\illustrations\\easy\\2.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\illustrations\\easy\\3-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\illustrations\\easy\\3-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\illustrations\\easy\\3.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\illustrations\\easy\\3.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\illustrations\\easy\\5.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\illustrations\\easy\\5.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\illustrations\\easy\\6.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\illustrations\\easy\\6.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\illustrations\\easy\\7.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\illustrations\\easy\\7.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\illustrations\\landing.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\illustrations\\landing.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\misc\\infography.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\misc\\infography.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\misc\\octagon.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\misc\\octagon.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\misc\\smartphone-2-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\misc\\smartphone-2-dark.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\misc\\smartphone-2.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\misc\\smartphone-2.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\misc\\video-play.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\misc\\video-play.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\products-categories\\gaming.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\products-categories\\gaming.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\products-categories\\gloves.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\products-categories\\gloves.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\products-categories\\shoes.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\products-categories\\shoes.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\products-categories\\t-shirt.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\products-categories\\t-shirt.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\products-categories\\watch.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\products-categories\\watch.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\shapes\\bitcoin.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\shapes\\bitcoin.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\shapes\\dogecoin.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\shapes\\dogecoin.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\shapes\\ethereum.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\shapes\\ethereum.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\shapes\\wave-bg-purple.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\shapes\\wave-bg-purple.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\shapes\\wave-bg-red.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\shapes\\wave-bg-red.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\social-logos\\facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\social-logos\\facebook.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\social-logos\\google.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\social-logos\\google.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\media\\svg\\social-logos\\twitter.svg",
+      "PackagePath": "staticwebassets\\assets\\media\\svg\\social-logos\\twitter.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\datatables\\datatables.bundle.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\datatables\\datatables.bundle.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\datatables\\datatables.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\datatables\\datatables.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\formrepeater\\formrepeater.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\formrepeater\\formrepeater.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\fslightbox\\fslightbox.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\fslightbox\\fslightbox.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\fullcalendar\\fullcalendar.bundle.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\fullcalendar\\fullcalendar.bundle.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\fullcalendar\\fullcalendar.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\fullcalendar\\fullcalendar.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\leaflet\\leaflet.bundle.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\leaflet\\leaflet.bundle.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\leaflet\\leaflet.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\leaflet\\leaflet.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\prismjs\\prismjs.bundle.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\prismjs\\prismjs.bundle.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\prismjs\\prismjs.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\prismjs\\prismjs.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\typedjs\\typedjs.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\typedjs\\typedjs.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\vis-timeline\\vis-timeline.bundle.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\vis-timeline\\vis-timeline.bundle.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\custom\\vis-timeline\\vis-timeline.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\custom\\vis-timeline\\vis-timeline.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\@fortawesome\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\bootstrap-icons\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\bootstrap-icons\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\bootstrap-icons\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\bootstrap-icons\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\fonticon\\fonticon.eot",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\fonticon\\fonticon.eot"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\fonticon\\fonticon.svg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\fonticon\\fonticon.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\fonticon\\fonticon.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\fonticon\\fonticon.ttf"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\fonticon\\fonticon.woff",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\fonticon\\fonticon.woff"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\fonticon\\fonticon.woff2",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\fonticon\\fonticon.woff2"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400-1.eot",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400-1.eot"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400.eot"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400.woff"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400-1.eot",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400-1.eot"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400.eot"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400.woff"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900-1.eot",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900-1.eot"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900.eot"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900.svg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900.woff"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\fonts\\line-awesome\\la-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\plugins.bundle.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\plugins.bundle.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\assets\\plugins\\global\\plugins.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\global\\plugins.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\adresDefteri.js",
+      "PackagePath": "staticwebassets\\custom js\\adresDefteri.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\anasayfa.js",
+      "PackagePath": "staticwebassets\\custom js\\anasayfa.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\arac.js",
+      "PackagePath": "staticwebassets\\custom js\\arac.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\aracbeklemedurumu.js",
+      "PackagePath": "staticwebassets\\custom js\\aracbeklemedurumu.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\aractalep.js",
+      "PackagePath": "staticwebassets\\custom js\\aractalep.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\aractipi.js",
+      "PackagePath": "staticwebassets\\custom js\\aractipi.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\birim.js",
+      "PackagePath": "staticwebassets\\custom js\\birim.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\calisma.js",
+      "PackagePath": "staticwebassets\\custom js\\calisma.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\duyuru.js",
+      "PackagePath": "staticwebassets\\custom js\\duyuru.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\genel.js",
+      "PackagePath": "staticwebassets\\custom js\\genel.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\gorev.js",
+      "PackagePath": "staticwebassets\\custom js\\gorev.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\haberdetay.js",
+      "PackagePath": "staticwebassets\\custom js\\haberdetay.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\kategori.js",
+      "PackagePath": "staticwebassets\\custom js\\kategori.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\kategoriTip.js",
+      "PackagePath": "staticwebassets\\custom js\\kategoriTip.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\kullanici.js",
+      "PackagePath": "staticwebassets\\custom js\\kullanici.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\onaylanacakaractalep.js",
+      "PackagePath": "staticwebassets\\custom js\\onaylanacakaractalep.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\profil.js",
+      "PackagePath": "staticwebassets\\custom js\\profil.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\custom js\\sofor.js",
+      "PackagePath": "staticwebassets\\custom js\\sofor.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\js\\blockui.js",
+      "PackagePath": "staticwebassets\\js\\blockui.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\2\\28\\72386052-a8b2-44d7-9df2-ccdedea9b9ee.jpeg",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\2\\28\\72386052-a8b2-44d7-9df2-ccdedea9b9ee.jpeg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\2\\28\\85de6f1f-2cb0-42b7-94d7-ccdc59fb6df9.jpeg",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\2\\28\\85de6f1f-2cb0-42b7-94d7-ccdc59fb6df9.jpeg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\2\\28\\d7d9f2b1-7a6c-4072-87c3-6797d2c770e8.png",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\2\\28\\d7d9f2b1-7a6c-4072-87c3-6797d2c770e8.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\2\\28\\e8a30d0d-e2ea-4e63-ab96-0a8c38be8602.jpeg",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\2\\28\\e8a30d0d-e2ea-4e63-ab96-0a8c38be8602.jpeg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\3\\2\\4092e945-af06-4a3c-8e65-4739730ddcc8.jpeg",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\3\\2\\4092e945-af06-4a3c-8e65-4739730ddcc8.jpeg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\3\\2\\c6a071cc-16f1-46af-b24e-79878d0e1a7b.jpeg",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\3\\2\\c6a071cc-16f1-46af-b24e-79878d0e1a7b.jpeg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\5\\11\\7ce5fc4f-8f27-4a4b-ae56-83d0744b3271.jpeg",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\5\\11\\7ce5fc4f-8f27-4a4b-ae56-83d0744b3271.jpeg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\5\\11\\9e7e8f26-f27f-4d84-aa97-615cfba8f78c.jpeg",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\5\\11\\9e7e8f26-f27f-4d84-aa97-615cfba8f78c.jpeg"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\5\\12\\212c0261-ece3-45ce-ba74-90838618b98e.png",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\5\\12\\212c0261-ece3-45ce-ba74-90838618b98e.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\5\\12\\43f38275-4f5d-4ea4-8535-deb887017734.png",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\5\\12\\43f38275-4f5d-4ea4-8535-deb887017734.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\5\\12\\44a88fbb-107f-4d28-b1ae-c93b13233bc5.png",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\5\\12\\44a88fbb-107f-4d28-b1ae-c93b13233bc5.png"
+    },
+    {
+      "Id": "D:\\PROJELER\\INTRANET\\INTRANET\\WebUI\\wwwroot\\uploaded_files\\2023\\5\\12\\5a9ac3c2-5adc-4543-b49f-674c598ef1a0.png",
+      "PackagePath": "staticwebassets\\uploaded_files\\2023\\5\\12\\5a9ac3c2-5adc-4543-b49f-674c598ef1a0.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebUI.props",
+      "PackagePath": "build\\WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebUI.props",
+      "PackagePath": "buildTransitive\\WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

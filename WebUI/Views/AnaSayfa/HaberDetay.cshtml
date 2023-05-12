@@ -1,0 +1,70 @@
+﻿@using ModelDto.Dtos.Duyuru;
+@using ModelDto.Dtos.Kategori;
+@model DtoDuyuru
+@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+<script src="~/custom js/haberdetay.js"></script>
+<div class="d-none" id="haberDetayId">@Model.Id</div>
+<div class="app-main flex-column flex-row-fluid" id="kt_app_main">
+    <div class="d-flex flex-column flex-column-fluid">        
+        <div id="kt_app_content" class="app-content  flex-column-fluid ">
+            <div id="kt_app_content_container" class="app-container container-fluid ">
+                <div class="card">
+                    <div class="card-body p-lg-20 pb-lg-0">
+                        <div class="d-flex flex-column flex-xl-row">
+                            <div class="flex-lg-row-fluid me-xl-15">
+                                <div class="mb-17">
+                                    <div class="mb-8">
+                                        <a href="#" class="text-dark text-hover-primary fs-2 fw-bold mb-6">
+                                            @Model.Basligi
+                                        </a>
+                                        <div class="d-flex flex-wrap">
+                                            <div class="me-9 my-1">
+                                                <i class="bi bi-calendar-event fs-4"></i>
+                                                <span class="fw-bold text-gray-400">@Model.YayinTarih</span>
+                                            </div>                                            
+                                        </div>
+                                        <div class="overlay mt-8">
+                                            <div class="bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-500px"
+                                                 style="background-image:url(/uploaded_files/@Model.AnaResim)">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fs-5 fw-semibold text-gray-600">
+                                        <p class="mb-8">
+                                            @Model.Metin                                            
+                                        </p>
+                                    </div>                                                                        
+                                </div>
+                            </div>
+                            <div class="flex-column flex-lg-row-auto w-100 w-xl-300px mb-10">                                
+                                <div class="mb-16">
+                                    <h4 class="text-dark mb-7">Kategoriler</h4>
+                                    @{
+                                        foreach (var kategori in (List<DtoKategori>)ViewBag.kategoriListesi) {
+                                            <div class="d-flex flex-stack fw-semibold fs-5 text-muted mb-4">
+                                                <a href="#" class="text-muted text-hover-primary pe-2">
+                                                    @kategori.Ad
+                                                </a>
+                                                @*<div class="m-0">
+                                                    24
+                                                </div>*@
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                                <div class="m-0">
+                                    <h4 class="text-dark mb-7">Diğer Haberler</h4>
+                                    <div id="digerHaberler">
+                                        
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

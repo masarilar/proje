@@ -1,0 +1,347 @@
+﻿<div id="kt_app_sidebar" class="app-sidebar flex-column" data-kt-drawer="true" data-kt-drawer-name="app-sidebar"
+     data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="250px"
+     data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
+
+    <!--begin::Wrapper-->
+    <div id="kt_app_sidebar_wrapper" class="app-sidebar-wrapper hover-scroll-y my-5 my-lg-2" data-kt-scroll="true"
+         data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-height="auto"
+         data-kt-scroll-dependencies="#kt_app_header" data-kt-scroll-wrappers="#kt_app_sidebar_wrapper"
+         data-kt-scroll-offset="5px" style="height: 491px;">
+
+        <!--begin::Sidebar menu-->
+        <div id="#kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false"
+             class="app-sidebar-menu-primary menu menu-column menu-rounded menu-sub-indention menu-state-bullet-primary px-6 mb-5">
+
+            
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+
+                <span class="menu-link">
+                    <span class="menu-icon"><i class="fonticon-house fs-2"></i></span>                    
+                    <span class="menu-title">Ana Sayfa</span>
+                    <span class="menu-arrow"></span>
+                </span>
+
+                <div class="menu-sub menu-sub-accordion">
+                    <div class="menu-item">
+                        <a class="menu-link inner-menu-link" href="/AnaSayfa/Index">
+                            <span class="menu-bullet">
+                                <span class="bullet bullet-dot"></span>
+                                </span>
+                                <span class="menu-title">Ana Sayfa</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-megaphone fs-2"></i>
+                    </span><span class="menu-title">Duyuru</span>
+                    <span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                    
+                    <div class="menu-item">
+                        <a class="menu-link inner-menu-link" href="/Duyuru/KaydetView">
+                            <span class="menu-bullet">
+                                <span class="bullet bullet-dot"></span>
+                                </span>
+                                <span class="menu-title">Duyuru Kaydet</span>
+                        </a>
+                    </div>
+
+                    <div class="menu-item">
+                        <a class="menu-link inner-menu-link" href="/Duyuru/ListeleView">
+                            <span class="menu-bullet">
+                                <span class="bullet bullet-dot"></span>
+                                </span>
+                                <span class="menu-title">Duyuru Listele</span>
+                        </a>
+                    </div>   
+                </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-car-front-fill fs-2"></i>
+                    </span><span class="menu-title">Araç Tipi</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="/AracTipi/KaydetView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Araç Tipi Kaydet</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link" href="/AracTipi/ListeleView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Araç Tipi Listele</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-person-vcard-fill fs-2"></i>
+                    </span><span class="menu-title">Birim</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                   <a class="menu-link" href="/Birim/KaydetView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Birim Kaydet</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link" href="/Birim/ListeleView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Birim Listele</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-car-front fs-2"></i>
+                    </span><span class="menu-title">Araç</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="/Arac/KaydetView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Araç Kaydet</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link" href="/Arac/ListeleView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Araç Listele</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-file-earmark-person-fill fs-2"></i>
+                    </span><span class="menu-title">Şoför</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="/Sofor/KaydetView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Şoför Kaydet</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link" href="/Sofor/ListeleView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Şoför Listele</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-person-vcard fs-2"></i>
+                    </span><span class="menu-title">Kullanıcı</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="/Kullanici/KaydetView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Kullanıcı Kaydet</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link" href="/Kullanici/ListeleView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Kullanıcı Listele</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-card-checklist fs-2"></i>
+                    </span><span class="menu-title">Kategori Tip</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="/KategoriTip/KaydetView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Kategori Tip Kaydet</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link" href="/KategoriTip/ListeleView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Kategori Tip Listele</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-card-list fs-2"></i>
+                    </span><span class="menu-title">Kategori</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="/Kategori/KaydetView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Kategori Kaydet</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link" href="/Kategori/ListeleView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Kategori Listele</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-person-workspace fs-2"></i>
+                    </span><span class="menu-title">Çalışma Türü</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                    <div class="menu-item">
+                        <a class="menu-link" href="/Calisma/KaydetView">
+                            <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Çalışma Türü Kaydet</span>
+                        </a>
+                    </div>
+
+                    <div class="menu-item">
+                        <a class="menu-link" href="/Calisma/ListeleView">
+                            <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Çalışma Türü Listele</span>
+                        </a>
+                    </div>
+                    </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-list-task fs-2"></i>
+                    </span><span class="menu-title">Görev</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="/Gorev/KaydetView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Görev Kaydet</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link" href="/Gorev/ListeleView">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Görev Listele</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-displayport fs-2"></i>
+                    </span><span class="menu-title">Araç Talep</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                    <div class="menu-item">
+                        <a class="menu-link" href="/AracTalep/KaydetView">
+                            <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Araç Talep Kaydet</span>
+                        </a>
+                    </div>
+
+                    <div class="menu-item">
+                        <a class="menu-link" href="/AracTalep/ListeleView">
+                            <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Araç Talep Listele</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-device-hdd fs-2"></i>
+                    </span><span class="menu-title">Araç Bekleme Durumu</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                    <div class="menu-item">
+                        <a class="menu-link" href="/AracBeklemeDurum/KaydetView">
+                            <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Araç Bekleme Durumu Kaydet</span>
+                        </a>
+                    </div>
+
+                    <div class="menu-item">
+                        <a class="menu-link" href="/AracBeklemeDurum/ListeleView">
+                            <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Araç Bekleme Durumu Listele</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-book fs-2"></i>
+                    </span><span class="menu-title">Adres Defteri</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                    <div class="menu-item">
+                        <a class="menu-link" href="/AdresDefteri/ListeleView">
+                            <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Adres Defteri</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div data-kt-menu-trigger="click" class="menu-item here menu-accordion">
+                <span class="menu-link">
+                    <span class="menu-icon">
+                        <i class="bi-device-hdd fs-2"></i>
+                    </span><span class="menu-title">Araç Talep Onayla</span><span class="menu-arrow"></span>
+                </span>
+                <div class="menu-sub menu-sub-accordion">
+                    <div class="menu-item">
+                        <a class="menu-link" href="/AracTalep/OnaylaView">
+                            <span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Onaylanacak Araç Talepleri </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--end::Wrapper-->
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {       
+        $(function () {            
+            $('#kt_app_sidebar .menu.menu-column a').filter(function () {
+                if ($(this).attr('href').toLowerCase().indexOf(window.location.pathname.toLowerCase()) > -1) {
+                    $(this).addClass('active');
+                    $(this).closest('.menu-sub.menu-sub-accordion').show();
+                    $(this).closest('.menu-item.menu-accordion').addClass('show').addClass('hover');
+                    if ($(this).closest('.menu-sub.menu-sub-accordion').parent().closest('.menu-sub.menu-sub-accordion').length > 0) {
+                        $(this).closest('.menu-sub.menu-sub-accordion').parent().closest('.menu-sub.menu-sub-accordion').show()
+                        $(this).closest('.menu-item.menu-accordion').parent().closest('.menu-item.menu-accordion').addClass('show').addClass('hover');
+                    }
+                }
+            });
+        });
+    });
+</script>

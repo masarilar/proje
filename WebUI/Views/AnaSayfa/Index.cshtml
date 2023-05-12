@@ -1,0 +1,104 @@
+﻿@using ModelDto.Dtos.Duyuru;
+@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+<script src="~/custom js/anasayfa.js"></script>
+<div class="app-main flex-column flex-row-fluid" id="kt_app_main">
+    <div class="d-flex flex-column flex-column-fluid">
+        <div id="kt_app_content" class="app-content  flex-column-fluid ">
+            <div id="kt_app_content_container" class="app-container  container-fluid ">
+                <div class="row g-5 g-xl-10">
+                    <div class="col-xl-8 mb-5 mb-xl-10">
+                        @await Html.PartialAsync("_HaberSlider")
+                    </div>
+                    <div class="col-xl-4 mb-5 mb-xl-10">
+                        @await Html.PartialAsync("_Duyuru")
+                    </div>
+                </div>
+                <div class="row g-5 g-xl-10 g-xl-10">
+                    <div class="col-xl-4 mb-xl-10">
+                        @await Html.PartialAsync("_DogumGunleri")
+                    </div>
+                    <div class="col-xl-4 mb-xl-10">
+                        @await Html.PartialAsync("_Bildirim")
+                    </div>
+                    <div class="col-xl-4 mb-5 mb-xl-10">
+                        @await Html.PartialAsync("_Aktivitelerim")
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="modalTumDogumGunleri">
+    <div class="modal-dialog modal-dialog-centered mw-450px modalLevel1">
+        <div class="modal-content rounded">
+            <div class="modal-header pb-0 border-0">
+                <div class="page-title d-flex flex-column justify-content-center gap-1 me-3">
+                    <h1 class="model-header-text page-heading d-flex flex-column justify-content-center text-dark fw-bold fs-3 m-0"></h1>
+                </div>
+                <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal" data-kt-modal-action-type="close">
+                    <span class="svg-icon svg-icon-1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)"
+                                  fill="currentColor"></rect>
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor">
+                            </rect>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="modal-body scroll-y pt-5">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="modalTumDuyurular">
+    <div class="modal-dialog modal-dialog-centered mw-950px modalLevel1">
+        <div class="modal-content rounded">
+            <div class="modal-header pb-0 border-0">
+                <div class="page-title d-flex flex-column justify-content-center gap-1 me-3">
+                    <h1 class="model-header-text page-heading d-flex flex-column justify-content-center text-dark fw-bold fs-3 m-0"></h1>
+                </div>
+                <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal" data-kt-modal-action-type="close">
+                    <span class="svg-icon svg-icon-1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)"
+                                  fill="currentColor"></rect>
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor">
+                            </rect>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="modal-body scroll-y pt-5">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="modalDuyuruDetay">
+    <div class="modal-dialog modal-dialog-centered mw-950px modalLevel2">
+        <div class="modal-content rounded">
+            <div class="modal-header pb-0 border-0">
+                <div class="page-title d-flex flex-column justify-content-center gap-1 me-3">
+                    <h1 class="model-header-text page-heading d-flex flex-column justify-content-center text-dark fw-bold fs-3 m-0"></h1>
+                </div>
+                <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal" data-kt-modal-action-type="close">
+                    <span class="svg-icon svg-icon-1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)"
+                                  fill="currentColor"></rect>
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor">
+                            </rect>
+                        </svg>
+                    </span>
+                </div>
+            </div>            
+            <div class="modal-body scroll-y pt-0">
+            </div>
+        </div>
+    </div>
+</div>

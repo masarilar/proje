@@ -1,0 +1,51 @@
+﻿@using ModelDto.Dtos.AracTipi;
+@model DtoAracTipiKaydet
+
+<div id="kt_app_content" class="app-content  flex-column-fluid ">
+    <div id="kt_app_content_container" class="app-container  container-fluid ">
+        <div class="card mb-5 mb-xl-10">
+            <div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse"
+                 data-bs-target="#kt_account_profile_details" aria-expanded="true"
+                 aria-controls="kt_account_profile_details">
+                <div class="card-title m-0">
+                    <h3 class="fw-bold m-0">Araç Tipi Detayları</h3>
+                </div>
+            </div>
+            <div id="" class="collapse show">
+                @using (Html.BeginForm("Index", "Kayit", FormMethod.Post, new { @id = "frmAracTipiKaydet", enctype = "multipart/form-data", autocomplete = "off" }))
+                {
+                    @Html.HiddenFor(model=>model.Id)
+                    <div class="card-body border-top p-9">
+
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Araç Tipi Adı</label>
+                            <div class="col-lg-8 fv-row" data-select2-id="select2-data-143-4dsl">
+                                @Html.TextBoxFor(model => model.Adi,new { @class = "form-control form-control-lg form-control-solid", placeholder="Araç Tipi Adı", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer d-flex justify-content-end py-6 px-9">
+                        @*<div type="reset" class="btn btn-light btn-active-light-primary me-2">Temizle</div>*@
+                        @{
+                            if (Model.Id>0)
+                            {
+                                <div class="btn btn-light btn-active-light-danger me-2" id="btnAracTipiSil">Sil</div>
+                                <div class="btn btn-primary btnDuzenle" id="btnAracTipiGuncelle">Güncelle</div>
+                            }
+                            else
+                            {
+                                <div type="reset" class="btn btn-light btn-active-light-primary me-2" id="btnAracTipiTemizle">Temizle</div>
+                                <div class="btn btn-primary btnDuzenle" id="btnAracTipiKaydet">Kaydet</div>
+                            }
+                        }
+                    </div>
+                    <input type="hidden">
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+

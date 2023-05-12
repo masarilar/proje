@@ -1,0 +1,18 @@
+﻿@using ModelDto.Dtos.Duyuru;
+@using Newtonsoft.Json;
+
+<div class="card card-flush h-md-100">
+    <div class="d-none" id="sliderHaberlerListesi">@JsonConvert.SerializeObject(ViewBag.haberListe)</div>
+    <div class="tns" style="direction: ltr">
+        <div data-tns="true" data-tns-nav-position="bottom" data-tns-controls="false">
+            @{
+                foreach (var item in (List<DtoDuyuru>)ViewBag.haberListe) {
+                    <a href="/AnaSayfa/HaberDetay/@item.Id" class="text-center px-5 pt-5 pt-lg-10 px-lg-10" style="display: flex;justify-content: space-around;flex-wrap: wrap;flex-direction: column;">
+                        <img src="/uploaded_files/@item.AnaResim" class="card-rounded shadow mw-100" alt="" />                        
+                        <h3 class="pt-5">@item.Basligi</h3>
+                    </a>
+                }
+            }
+        </div>
+    </div>
+</div>

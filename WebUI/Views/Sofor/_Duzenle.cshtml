@@ -1,0 +1,81 @@
+﻿@using ModelDto.Dtos.Sofor;
+@using Newtonsoft.Json;
+@model DtoSoforGuncelle
+
+<script src="~/assets/js/uploaders/fileinput/plugins/purify.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/plugins/sortable.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/plugins/piexif.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/fileinput.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/locales/tr.js"></script>
+
+<div id="kt_app_content" class="app-content  flex-column-fluid ">
+    <div id="kt_app_content_container" class="app-container  container-fluid ">
+        <div class="card mb-5 mb-xl-10">
+            <div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse"
+                 data-bs-target="#kt_account_profile_details" aria-expanded="true"
+                 aria-controls="kt_account_profile_details">
+                <div class="card-title m-0">
+                    <h3 class="fw-bold m-0">Şoför Detayları</h3>
+                </div>
+            </div>
+            <div id="" class="collapse show">
+                @using (Html.BeginForm("Index", "Kayit", FormMethod.Post, new { @id = "frmSoforKaydet", enctype = "multipart/form-data", autocomplete = "off" }))
+                {
+                    <div class="card-body border-top p-9">
+                        @Html.HiddenFor(model=>model.Id)
+                        @Html.HiddenFor(model=>model.Resim)
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Şoför Ad Soyad</label>
+                            <div class="col-lg-8 fv-row" data-select2-id="select2-data-143-4dsl">
+                                @Html.DropDownListFor(model => model.KullaniciId, (SelectList)ViewBag.kullaniciListesi, "", new { @class = "ddlselect2Genel form-select form-select-solid form-select-lg" })
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Şoför Ehliyet Yetkinlikleri</label>
+                            <div class="col-lg-8 fv-row">
+                                @Html.TextBoxFor(model=> model.EhliyetYetkinlikleri, new { @class="form-control form-control-lg form-control-solid", @placeholder="Şoför Ehliyet Yetkinlikleri", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label fw-semibold fs-6">Şoför Resimleri</label>
+                            <div class="col-lg-8 mb-auto">
+                                <input type="file" class="file-input" data-fouc accept=".png, .jpg, .jpeg" />
+                                @{
+                                    if (Model.YuklenmisDosya != null && Model.YuklenmisDosya.Count > 0)
+                                    {
+                                        <div class="mt-5">
+                                            <a class="btn btn-light-info btn-sm" id="btnSoforYuklenmisDosya"><i class="bi bi-file-text me-2"></i><span>@Model.YuklenmisDosya.Count</span> adet yüklenmiş dosya bulunmakta.</a>
+                                            <div class="d-none">@JsonConvert.SerializeObject(Model.YuklenmisDosya)</div>
+                                        </div>
+                                    }
+                                }
+                                <div class="form-text">Geçerli dosya türleri: png, jpg, jpeg</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card-footer d-flex justify-content-end py-6 px-9">
+                        @*<div type="reset" class="btn btn-light btn-active-light-primary me-2">Temizle</div>*@
+                        @{
+                            if (Model.Id > 0)
+                            {
+                                <div class="btn btn-light btn-active-light-danger me-2" id="btnSoforSil">Sil</div>
+                                <div class="btn btn-primary btnDuzenle" id="btnSoforGuncelle">Güncelle</div>
+                            }
+                            else
+                            {
+                                <div type="reset" class="btn btn-light btn-active-light-primary me-2" id="btnSoforTemizle">Temizle</div>
+                                <div class="btn btn-primary btnDuzenle" id="btnSoforKaydet">Kaydet</div>
+                            }
+                        }
+                    </div>
+                    <input type="hidden">
+                }
+            </div>
+        </div>
+    </div>
+</div>
+

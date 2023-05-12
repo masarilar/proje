@@ -1,0 +1,33 @@
+﻿@using ModelDto.Dtos.Duyuru;
+@using Newtonsoft.Json;
+
+<div class="card card-xl-stretch mb-5 mb-xl-8">
+    <div class="d-none" id="duyuruListesi">@JsonConvert.SerializeObject(ViewBag.duyuruListe)</div>
+    @{
+        if (!(bool)ViewBag.tumDuyuruButonGosterme) {
+            <div class="card-header border-0">
+                <h3 class="card-title fw-bold text-dark">Duyurular</h3>
+                <div class="card-toolbar">
+                    <a href="#" id="btnTumDuyurular" class="btn btn-sm btn-light" data-bs-toggle="tooltip" data-bs-dismiss="click">Tümünü Göster</a>
+                </div>
+            </div>
+        }
+    }
+    <div class="card-body pt-2">
+        @{
+            var counter = 1;
+            foreach (var duyuru in (List<DtoDuyuruLocalStorage>)ViewBag.duyuruListe) {
+                var duyuruTarihBugunMu = duyuru.YayinTarih.Date == DateTime.Today;
+                <div class="d-flex align-items-center mb-8 @((bool)ViewBag.tumDuyuruButonGosterme && counter == 1 ? "mt-5" : "")">
+                    <span class="bullet bullet-vertical h-40px bg-@(duyuruTarihBugunMu ? "success":"warning")"></span>
+                    <div class="flex-grow-1 mx-5">
+                        <a href="#" id="btnDuyuruDetay" data-d-id=@duyuru.Id class="text-gray-800 text-hover-primary fw-bold fs-6">@duyuru.Basligi</a>
+                        <span class="text-muted fw-semibold d-block">@(duyuru.Metin.Length > 150 ? $"{duyuru.Metin.Substring(0, 150)}..." : duyuru.Metin)</span>
+                    </div>
+                    <span class="badge badge-light-@(duyuruTarihBugunMu ? "success":"warning") fs-8 fw-bold">@(duyuruTarihBugunMu ? "Yeni" : "Eski")</span>
+                </div>
+                counter++;
+            }
+        }
+    </div>
+</div>

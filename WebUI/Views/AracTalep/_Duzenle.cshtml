@@ -1,0 +1,91 @@
+﻿@using ModelDto.Dtos.AracTalep;
+@using Newtonsoft.Json;
+@model DtoAracTalepKaydet
+
+<script src="~/assets/js/uploaders/fileinput/plugins/purify.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/plugins/sortable.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/plugins/piexif.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/fileinput.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/locales/tr.js"></script>
+
+<div id="kt_app_content" class="app-content  flex-column-fluid ">
+    <div id="kt_app_content_container" class="app-container  container-fluid ">
+        <div class="card mb-5 mb-xl-10">
+            <div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse"
+                 data-bs-target="#kt_account_profile_details" aria-expanded="true"
+                 aria-controls="kt_account_profile_details">
+                <div class="card-title m-0">
+                    <h3 class="fw-bold m-0">Araç Talep Detayları</h3>
+                </div>
+            </div>
+            <div id="" class="collapse show">
+                @using (Html.BeginForm("Index", "Kayit", FormMethod.Post, new { @id = "frmAracTalepKaydet", enctype = "multipart/form-data", autocomplete = "off" }))
+                {
+                    @Html.HiddenFor(model=>model.Id)
+                    @Html.HiddenFor(model=>model.AracId)
+                    @Html.HiddenFor(model=>model.SoforId)
+                    <div class="d-none" id="AracTalepDurumu">@Model.AracTalepDurum</div>
+                    <div class="card-body border-top p-9">
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Başlangıç Noktası</label>
+                            <div class="col-lg-8 fv-row">
+                                @Html.TextBoxFor(model=> model.BaslangicNoktasi, new { @class="form-control form-control-lg form-control-solid", @placeholder="Başlangıç Noktası", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Bitiş Noktası</label>
+                            <div class="col-lg-8 fv-row">
+                                @Html.TextBoxFor(model=> model.BitisNoktasi, new { @class="form-control form-control-lg form-control-solid", @placeholder="Bitiş Noktası", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Toplam Kilometre</label>
+                            <div class="col-lg-8 fv-row">
+                                @Html.TextBoxFor(model=> model.ToplamKilometre, new { @class="form-control form-control-lg form-control-solid", @placeholder="Toplam Kilometre", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Gidiş Tarih Saat</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container position-relative d-flex align-items-center">
+                                <span class="position-absolute mx-4">
+                                    <i class="bi bi-calendar-date fs-2"></i>
+                                </span>
+                                @Html.TextBoxFor(model => model.GidisTarihSaat, new { @class = "form-control form-control-solid flatpickr-input genelTARIH ps-13",@placeholder="Gidiş Tarih Saat", @tabindex = "1" })
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Araç Bekleme Durumu</label>
+                            <div class="col-lg-8 fv-row" data-select2-id="select2-data-143-4dsl">
+                                @Html.DropDownListFor(model => model.AracBeklemeDurumId, (SelectList)ViewBag.aracBeklemeDurumListesi, "", new { @class = "ddlselect2Genel form-select form-select-solid form-select-lg", @id="ddlAracBeklemeDurumuListesi" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card-footer d-flex justify-content-end py-6 px-9">
+                        @{
+                            if (Model.Id > 0)
+                            {
+                                <div class="btn btn-light btn-active-light-danger me-2" id="btnAracTalepSil">Sil</div>
+                                <div class="btn btn-primary btnDuzenle" id="btnAracTalepGuncelle">Güncelle</div>
+                            }
+                            else
+                            {
+                                <div type="reset" class="btn btn-light btn-active-light-primary me-2" id="btnAracTalepTemizle">Temizle</div>
+                                <div class="btn btn-primary btnDuzenle" id="btnAracTalepKaydet">Kaydet</div>
+                            }
+                        }
+                    </div>
+                    <input type="hidden">
+                }
+            </div>
+        </div>
+    </div>
+</div>

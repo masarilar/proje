@@ -1,0 +1,851 @@
+﻿/*Modal Level Z-Index*/
+.modalLevel1 {
+    z-index: 1051;
+}
+
+.modalLevel2 {
+    z-index: 1052;
+}
+
+.modalLevel3 {
+    z-index: 1053;
+}
+
+.modalLevel4 {
+    z-index: 1054;
+}
+
+.modalLevel5 {
+    z-index: 1055;
+}
+
+.modalLevel6 {
+    z-index: 1056;
+}
+
+.cardHoverList:hover {
+    background-color: #f7f7f7;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        text-align: right;
+        opacity: 0;
+        background: none repeat scroll 0 0 transparent;
+        cursor: inherit;
+        display: block;
+        visibility: visible;
+    }
+
+.file-caption-name {
+    display: inline-block;
+    overflow: hidden;
+    word-break: break-all;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    border: 0;
+    background: none;
+    outline: 0;
+    pointer-events: none;
+}
+
+.file-input-new .file-caption-name,
+.file-input-ajax-new .file-caption-name {
+    color: #999;
+}
+
+.file-error-message {
+    position: relative;
+    background-color: #FFEBEE;
+    color: #C62828;
+    text-align: center;
+    padding: 0.4375rem 0.875rem;
+    margin: 0.5rem;
+    margin-top: 0;
+    border-radius: 0.1875rem;
+}
+
+.file-drop-zone .file-error-message {
+    margin-top: 0.4375rem;
+}
+
+.file-error-message .close {
+    color: #C62828;
+}
+
+.file-error-message pre {
+    background-color: #fff;
+    margin-top: 0.4375rem;
+    text-align: left;
+}
+
+.file-error-message ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.file-caption-disabled {
+    background-color: #fafafa;
+    cursor: default;
+}
+
+.file-preview-detail-modal {
+    text-align: left;
+}
+
+.file-preview {
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    position: relative;
+    text-align: center;
+    border-radius: 0.1875rem;
+}
+
+    .file-preview .close {
+        font-size: 1.25003rem;
+        font-weight: 400;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0.5rem;
+        line-height: 1;
+        color: #333;
+        text-shadow: none;
+        opacity: 0.75;
+        border-radius: 0.1875rem;
+        z-index: 1;
+    }
+
+        .file-preview .close:hover, .file-preview .close:focus {
+            color: #333;
+            text-decoration: none;
+            opacity: 1;
+        }
+
+.file-preview-thumbnails {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+@media (max-width: 767.98px) {
+    .file-preview-thumbnails {
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+.file-preview-frame {
+    margin: 0.5rem;
+    margin-right: 0;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 0.1875rem;
+}
+
+    .file-preview-frame .kv-file-content {
+        position: relative;
+        height: 10rem;
+    }
+
+.file-preview-image {
+    border-top-left-radius: 0.125rem;
+    border-top-right-radius: 0.125rem;
+}
+
+.file-thumbnail-footer {
+    position: relative;
+    background-color: #fafafa;
+    border-top: 1px solid #ddd;
+}
+
+.file-preview-text {
+    color: #2196F3;
+    border: 0;
+    overflow-x: hidden;
+}
+
+.file-preview-other {
+    width: 10rem;
+}
+
+    .file-preview-other:after {
+        content: "";
+        font-family: "icomoon";
+        line-height: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 4rem;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+.file-preview-status {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fafafa;
+    border-top: 1px solid #ddd;
+    font-size: 0.75rem;
+    line-height: 1.6667;
+    padding: 0.4375rem 0.875rem;
+    z-index: 2059;
+    border-bottom-right-radius: 0.1875rem;
+    border-bottom-left-radius: 0.1875rem;
+}
+
+    .file-preview-status:empty {
+        padding: 0;
+        background-color: transparent;
+        border: 0;
+    }
+
+.file-thumb-loading {
+    min-height: 6.62503rem;
+}
+
+    .file-thumb-loading:before,
+    .file-uploading:before {
+        content: '';
+        display: inline-block;
+        background-color: #263238;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 2069;
+        margin-top: -2.06252rem;
+        margin-left: -1rem;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.1875rem;
+    }
+
+    .file-thumb-loading:after,
+    .file-uploading:after {
+        content: "";
+        font-family: "icomoon";
+        display: inline-block;
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        margin-top: -1.56252rem;
+        margin-left: -0.5rem;
+        font-size: 1rem;
+        line-height: 1;
+        z-index: 2059;
+        -webkit-animation: rotation 1s linear infinite;
+        animation: rotation 1s linear infinite;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+.file-upload-indicator {
+    cursor: default;
+    float: left;
+    padding: 0.625rem;
+    line-height: 1;
+}
+
+    .file-upload-indicator i {
+        top: 0;
+    }
+
+.file-input-new .file-preview,
+.file-input-new .close,
+.file-input-new .glyphicon-file,
+.file-input-new .fileinput-remove-button,
+.file-input-new .fileinput-upload-button {
+    display: none;
+}
+
+.file-input-ajax-new .fileinput-remove-button,
+.file-input-ajax-new .fileinput-upload-button,
+.file-input-ajax-new .close {
+    display: none;
+}
+
+.kv-hidden,
+.file-caption-icon,
+.file-zoom-dialog .modal-header:before,
+.file-zoom-dialog .modal-header:after,
+.hide-content .kv-file-content {
+    display: none;
+}
+
+.file-footer-buttons {
+    float: right;
+}
+
+    .file-footer-buttons button {
+        padding: 0.625rem;
+        background-color: transparent;
+        border: 0;
+        line-height: 1;
+        cursor: pointer;
+        opacity: 0.6;
+        outline: 0;
+        transition: opacity ease-in-out 0.15s;
+    }
+
+@media (prefers-reduced-motion: reduce) {
+    .file-footer-buttons button {
+        transition: none;
+    }
+}
+
+.file-footer-buttons button:hover {
+    opacity: 1;
+}
+
+.file-footer-buttons button i {
+    top: 0;
+}
+
+.file-footer-caption {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    padding: 0.75rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.file-size-info samp {
+    font-size: 0.6875rem;
+}
+
+.file-drop-zone {
+    border: 1px dashed #ddd;
+    height: 100%;
+    vertical-align: middle;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.1875rem;
+}
+
+.file-drop-zone-title {
+    font-size: 1.1875rem;
+    font-weight: 300;
+    padding: 5rem;
+    opacity: 0.5;
+}
+
+.kv-upload-progress {
+    margin-bottom: 1.25rem;
+}
+
+.file-thumb-progress {
+    position: absolute;
+    top: -0.375rem;
+    left: 0;
+    right: 0;
+}
+
+    .file-thumb-progress .progress,
+    .file-thumb-progress .progress-bar {
+        height: 0.375rem;
+        border-radius: 0;
+        font-size: 0;
+    }
+
+.btn-file ::-ms-browse {
+    width: 100%;
+    height: 100%;
+}
+
+.file-zoom-fullscreen .modal-dialog {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    max-width: 100%;
+}
+
+.file-zoom-fullscreen .modal-content {
+    border-radius: 0;
+}
+
+.file-zoom-fullscreen .modal-body {
+    overflow-y: auto;
+}
+
+.file-zoom-dialog .btn-navigate {
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    opacity: 0.7;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: opacity ease-in-out 0.15s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .file-zoom-dialog .btn-navigate {
+        transition: none;
+    }
+}
+
+.file-zoom-dialog .btn-navigate > i {
+    display: block;
+    font-size: 2rem;
+}
+
+.file-zoom-dialog .btn-navigate:not([disabled]):hover, .file-zoom-dialog .btn-navigate:not([disabled]):focus {
+    outline: none;
+    box-shadow: none !important;
+    opacity: 1;
+}
+
+.file-zoom-dialog .btn-navigate[disabled] {
+    opacity: 0.3;
+}
+
+.file-zoom-dialog .btn-prev {
+    left: -3.25rem;
+}
+
+.file-zoom-dialog .btn-next {
+    right: -3.25rem;
+}
+
+.file-zoom-dialog .floating-buttons {
+    position: absolute;
+    top: 1.25rem 1.25rem;
+    right: 1.25rem 1.25rem;
+    background-color: #fff;
+}
+
+.file-zoom-dialog .kv-zoom-title {
+    color: #999;
+    margin-left: 0.625rem;
+}
+
+.file-zoom-content {
+    text-align: center;
+}
+
+.file-drag-handle {
+    cursor: move;
+    float: left;
+    line-height: 1;
+    opacity: 0.6;
+    transition: opacity ease-in-out 0.15s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .file-drag-handle {
+        transition: none;
+    }
+}
+
+.file-drag-handle:hover {
+    opacity: 1;
+}
+
+.file-drag-handle i {
+    top: 0;
+}
+
+/* ------------------------------------------------------------------------------
+ *
+ *  # Dropzone file uploader
+ *
+ *  Styles for dropzone.min.js - open source library that provides drag’n’drop file uploads with image previews
+ *
+ * ---------------------------------------------------------------------------- */
+.dropzone {
+    position: relative;
+    border: 2px dashed rgba(0, 0, 0, 0.125);
+    min-height: 18rem;
+    background-color: #fff;
+    padding: 0.3125rem;
+    border-radius: 0.1875rem;
+}
+
+.card .dropzone {
+    background-color: #fcfcfc;
+    border-color: #ddd;
+}
+
+.dropzone .dz-message {
+    opacity: 1;
+}
+
+.dropzone.dz-started .dz-message {
+    display: none;
+}
+
+.dropzone.dz-drag-hover {
+    border-color: #999;
+    background-color: #f5f5f5;
+    color: #ddd;
+}
+
+.sidebar .dropzone {
+    text-align: center;
+}
+
+    .sidebar .dropzone .dz-default.dz-message:before {
+        font-size: 4rem;
+        width: 4rem;
+        height: 4rem;
+        margin-left: -2rem;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .sidebar .dropzone .dz-default.dz-message span {
+        font-size: 0.9375rem;
+    }
+
+.dropzone .dz-default.dz-message {
+    height: 18rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 1;
+    border-radius: 0.1875rem;
+    transition: opacity ease-in-out 0.15s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dropzone .dz-default.dz-message {
+        transition: none;
+    }
+}
+
+.dropzone .dz-default.dz-message:before {
+    content: "";
+    font-family: "icomoon";
+    font-size: 4rem;
+    display: inline-block;
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    line-height: 1;
+    z-index: 2;
+    color: #ccc;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dropzone .dz-default.dz-message > span {
+    font-size: 1.0625rem;
+    color: #777;
+    display: block;
+    margin-top: 10.25rem;
+}
+
+    .dropzone .dz-default.dz-message > span span {
+        display: block;
+        color: #9d9d9d;
+        font-size: 0.9375rem;
+    }
+
+.dropzone.dz-drag-hover .dz-message {
+    opacity: 0.75;
+}
+
+.dropzone.dz-started .dz-message {
+    display: block;
+    opacity: 0;
+}
+
+.dropzone .dz-preview,
+.dropzone-previews .dz-preview {
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    margin: 0.5rem;
+    min-width: 10rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.5rem;
+    border-radius: 0.1875rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+    .dropzone .dz-preview.dz-file-preview [data-dz-thumbnail],
+    .dropzone-previews .dz-preview.dz-file-preview [data-dz-thumbnail] {
+        display: none;
+    }
+
+    .dropzone .dz-preview .dz-details,
+    .dropzone-previews .dz-preview .dz-details {
+        position: relative;
+    }
+
+        .dropzone .dz-preview .dz-details .dz-filename,
+        .dropzone-previews .dz-preview .dz-details .dz-filename {
+            overflow: hidden;
+            margin-top: 0.625rem;
+        }
+
+        .dropzone .dz-preview .dz-details img,
+        .dropzone-previews .dz-preview .dz-details img {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .dropzone .dz-preview .dz-details .dz-size,
+        .dropzone-previews .dz-preview .dz-details .dz-size {
+            margin-top: 0.625rem;
+        }
+
+    .dropzone .dz-preview:hover .dz-details img,
+    .dropzone-previews .dz-preview:hover .dz-details img {
+        display: none;
+    }
+
+    .dropzone .dz-preview .dz-error-mark,
+    .dropzone .dz-preview .dz-success-mark,
+    .dropzone-previews .dz-preview .dz-error-mark,
+    .dropzone-previews .dz-preview .dz-success-mark {
+        display: none;
+        position: absolute;
+        z-index: 9;
+        top: 0;
+        right: 0;
+        padding: 0.25rem;
+        background-color: #fff;
+        border-left: 1px solid rgba(0, 0, 0, 0.125);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0 0 0 0.1875rem;
+    }
+
+        .dropzone .dz-preview .dz-error-mark:after,
+        .dropzone .dz-preview .dz-success-mark:after,
+        .dropzone-previews .dz-preview .dz-error-mark:after,
+        .dropzone-previews .dz-preview .dz-success-mark:after {
+            font-family: "icomoon";
+            display: block;
+            font-size: 0.8125rem;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .dropzone .dz-preview .dz-error-mark span,
+        .dropzone .dz-preview .dz-error-mark svg,
+        .dropzone .dz-preview .dz-success-mark span,
+        .dropzone .dz-preview .dz-success-mark svg,
+        .dropzone-previews .dz-preview .dz-error-mark span,
+        .dropzone-previews .dz-preview .dz-error-mark svg,
+        .dropzone-previews .dz-preview .dz-success-mark span,
+        .dropzone-previews .dz-preview .dz-success-mark svg {
+            display: none;
+        }
+
+    .dropzone .dz-preview .dz-error-mark,
+    .dropzone-previews .dz-preview .dz-error-mark {
+        color: #F44336;
+    }
+
+        .dropzone .dz-preview .dz-error-mark:after,
+        .dropzone-previews .dz-preview .dz-error-mark:after {
+            content: "";
+        }
+
+    .dropzone .dz-preview .dz-success-mark,
+    .dropzone-previews .dz-preview .dz-success-mark {
+        color: #4CAF50;
+    }
+
+        .dropzone .dz-preview .dz-success-mark:after,
+        .dropzone-previews .dz-preview .dz-success-mark:after {
+            content: "";
+        }
+
+    .dropzone .dz-preview.dz-error .dz-error-mark,
+    .dropzone .dz-preview.dz-success .dz-success-mark,
+    .dropzone-previews .dz-preview.dz-error .dz-error-mark,
+    .dropzone-previews .dz-preview.dz-success .dz-success-mark {
+        display: block;
+        opacity: 1;
+    }
+
+    .dropzone .dz-preview .dz-progress,
+    .dropzone-previews .dz-preview .dz-progress {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 0.25rem;
+        display: none;
+    }
+
+        .dropzone .dz-preview .dz-progress .dz-upload,
+        .dropzone-previews .dz-preview .dz-progress .dz-upload {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: #4CAF50;
+            transition: width ease-in-out 0.15s;
+            border-bottom-right-radius: 0.125rem;
+            border-bottom-left-radius: 0.125rem;
+        }
+
+@media (prefers-reduced-motion: reduce) {
+    .dropzone .dz-preview .dz-progress .dz-upload,
+    .dropzone-previews .dz-preview .dz-progress .dz-upload {
+        transition: none;
+    }
+}
+
+.dropzone .dz-preview.dz-processing .dz-progress,
+.dropzone-previews .dz-preview.dz-processing .dz-progress {
+    display: block;
+}
+
+.dropzone .dz-preview.dz-success .dz-progress,
+.dropzone-previews .dz-preview.dz-success .dz-progress {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-in-out 0.15s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dropzone .dz-preview.dz-success .dz-progress,
+    .dropzone-previews .dz-preview.dz-success .dz-progress {
+        transition: none;
+    }
+}
+
+.dropzone .dz-preview .dz-error-message,
+.dropzone-previews .dz-preview .dz-error-message {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: #F44336;
+    max-width: 100%;
+    z-index: 5;
+    opacity: 0;
+    transition: opacity ease-in-out 0.15s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dropzone .dz-preview .dz-error-message,
+    .dropzone-previews .dz-preview .dz-error-message {
+        transition: none;
+    }
+}
+
+.dropzone .dz-preview.dz-error:hover .dz-error-message,
+.dropzone-previews .dz-preview.dz-error:hover .dz-error-message {
+    display: block;
+    opacity: 1;
+}
+
+.dropzone .dz-preview.dz-error .dz-progress .dz-upload,
+.dropzone-previews .dz-preview.dz-error .dz-progress .dz-upload {
+    background: #F44336;
+}
+
+.dropzone .dz-preview.dz-image-preview:hover .dz-details img,
+.dropzone-previews .dz-preview.dz-image-preview:hover .dz-details img {
+    display: block;
+    opacity: 0.1;
+}
+
+.dropzone .dz-preview .dz-image img,
+.dropzone-previews .dz-preview .dz-image img {
+    width: 100%;
+}
+
+.dropzone .dz-preview a.dz-remove,
+.dropzone-previews .dz-preview a.dz-remove {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    display: block;
+    padding: 0.3125rem 0.75rem;
+    text-align: center;
+    color: #333;
+    margin-top: 0.625rem;
+    cursor: pointer;
+    border-radius: 0.1875rem;
+    transition: all ease-in-out 0.15s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dropzone .dz-preview a.dz-remove,
+    .dropzone-previews .dz-preview a.dz-remove {
+        transition: none;
+    }
+}
+
+.dropzone .dz-preview a.dz-remove:hover,
+.dropzone-previews .dz-preview a.dz-remove:hover {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+
+
+.file-preview-frame .kv-file-content {
+    width: 213px;
+    height: 160px;
+}
+
+.file-highlighted {
+    border: 2px dashed #999 !important;
+    background-color: #eee;
+}
+
+.file-preview-other:after {
+    display: none;
+}
+
+.file-preview-other i {
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 4rem;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    -webkit-font-smoothing: antialiased;
+}

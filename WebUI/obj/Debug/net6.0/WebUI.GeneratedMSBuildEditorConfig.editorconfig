@@ -1,0 +1,229 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebUI
+build_property.RootNamespace = WebUI
+build_property.ProjectDir = C:\Users\MEHMET ALİ\Desktop\INTRANET\INTRANET\WebUI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\MEHMET ALİ\Desktop\INTRANET\INTRANET\WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AdresDefteri/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRyZXNEZWZ0ZXJpXExpc3RlbGVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AdresDefteri/_PopUpListele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRyZXNEZWZ0ZXJpXF9Qb3BVcExpc3RlbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AnaSayfa/HaberDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hU2F5ZmFcSGFiZXJEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AnaSayfa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hU2F5ZmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AnaSayfa/_Aktivitelerim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hU2F5ZmFcX0FrdGl2aXRlbGVyaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AnaSayfa/_Bildirim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hU2F5ZmFcX0JpbGRpcmltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AnaSayfa/_DogumGunleri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hU2F5ZmFcX0RvZ3VtR3VubGVyaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AnaSayfa/_Duyuru.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hU2F5ZmFcX0R1eXVydS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AnaSayfa/_HaberSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hU2F5ZmFcX0hhYmVyU2xpZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AracBeklemeDurum/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY0Jla2xlbWVEdXJ1bVxLYXlkZXRWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AracBeklemeDurum/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY0Jla2xlbWVEdXJ1bVxMaXN0ZWxlVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AracBeklemeDurum/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY0Jla2xlbWVEdXJ1bVxfRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AracTalep/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY1RhbGVwXEtheWRldFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AracTalep/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY1RhbGVwXExpc3RlbGVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AracTalep/OnaylaView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY1RhbGVwXE9uYXlsYVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AracTalep/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY1RhbGVwXF9EdXplbmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AracTalep/_OnayDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY1RhbGVwXF9PbmF5RHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AracTipi/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY1RpcGlcS2F5ZGV0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AracTipi/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY1RpcGlcTGlzdGVsZVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/AracTipi/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY1RpcGlcX0R1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Arac/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY1xLYXlkZXRWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Arac/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY1xMaXN0ZWxlVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Arac/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJhY1xfRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Birim/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlyaW1cS2F5ZGV0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Birim/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlyaW1cTGlzdGVsZVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Birim/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlyaW1cX0R1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Calisma/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaXNtYVxLYXlkZXRWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Calisma/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaXNtYVxMaXN0ZWxlVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Calisma/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaXNtYVxfRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Duyuru/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1XEtheWRldFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Duyuru/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1XExpc3RlbGVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Duyuru/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1XF9EdXplbmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Giris/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lyaXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Gorev/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29yZXZcS2F5ZGV0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Gorev/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29yZXZcTGlzdGVsZVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Gorev/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29yZXZcX0R1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/KategoriTip/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlUaXBcS2F5ZGV0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/KategoriTip/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlUaXBcTGlzdGVsZVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/KategoriTip/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlUaXBcX0R1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Kategori/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcS2F5ZGV0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Kategori/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcTGlzdGVsZVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Kategori/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcX0R1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Kullanici/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXEtheWRldFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Kullanici/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXExpc3RlbGVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Kullanici/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXF9EdXplbmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Shared/_Aside.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Bc2lkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Sofor/KaydetView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mb3JcS2F5ZGV0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Sofor/ListeleView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mb3JcTGlzdGVsZVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEHMET ALİ/Desktop/INTRANET/INTRANET/WebUI/Views/Sofor/_Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mb3JcX0R1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

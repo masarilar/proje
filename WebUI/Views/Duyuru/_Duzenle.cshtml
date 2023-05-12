@@ -1,0 +1,165 @@
+﻿@using ModelDto.Dtos.Duyuru;
+@using Newtonsoft.Json;
+@model DtoDuyuruGuncelle
+
+<script src="~/assets/js/uploaders/fileinput/plugins/purify.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/plugins/sortable.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/plugins/piexif.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/fileinput.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/locales/tr.js"></script>
+
+<div id="kt_app_content" class="app-content  flex-column-fluid ">
+    <div id="kt_app_content_container" class="app-container  container-fluid ">
+        <div class="card mb-5 mb-xl-10">
+            <div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse"
+                 data-bs-target="#kt_account_profile_details" aria-expanded="true"
+                 aria-controls="kt_account_profile_details">
+                <div class="card-title m-0">
+                    <h3 class="fw-bold m-0">Duyuru Detayları</h3>
+                </div>
+            </div>
+            <div id="" class="collapse show">
+                @using (Html.BeginForm("Index", "Kayit", FormMethod.Post, new { @id = "kt_account_profile_details_form", enctype = "multipart/form-data", autocomplete = "off" })) {
+                    @Html.HiddenFor(model=>model.Id)
+                    <div class="card-body border-top p-9">
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label fw-semibold fs-6">Duyuru Ana Resmi</label>
+                            <div class="col-lg-8 mb-auto">
+                                <input type="file" class="file-input" data-fouc accept=".png, .jpg, .jpeg" />
+                                @{
+                                    if (Model.YuklenmisDosya != null && Model.YuklenmisDosya.Count > 0) {
+                                        <div class="mt-5">
+                                            <a class="btn btn-light-info btn-sm" id="btnDuyuruYuklenmisDosya"><i class="bi bi-file-text me-2"></i><span>@Model.YuklenmisDosya.Count</span> adet yüklenmiş dosya bulunmakta.</a>
+                                            <div class="d-none">@JsonConvert.SerializeObject(Model.YuklenmisDosya)</div>
+                                        </div>
+                                    }
+                                }
+                                <div class="form-text">Geçerli dosya türleri: png, jpg, jpeg</div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Duyuru Kategorisi</label>
+                            <div class="col-lg-8 fv-row" data-select2-id="select2-data-143-4dsl">
+                                @Html.DropDownListFor(model => model.KategoriId, (SelectList)ViewBag.kategoriListesi, "", new { @class = "ddlselect2Genel form-select form-select-solid form-select-lg" })
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Duyuru Başlığı</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.Basligi,new { @class = "form-control form-control-lg form-control-solid", placeholder="Duyuru Başlığı", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Duyuru Metni</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextAreaFor(model => model.Metin, new { @class = "form-control form-control-solid genelAUTOGROW", placeholder="Duyuru Metni", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Duyuru Yayın Tarihi</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container position-relative d-flex align-items-center">
+                                <span class="position-absolute mx-4">
+                                    <i class="bi bi-calendar-date fs-2"></i>
+                                </span>
+                                @Html.TextBoxFor(model => model.YayinTarih, new { @class = "form-control form-control-solid flatpickr-input genelTARIH ps-13", placeholder="Duyuru Yayın Tarihi", @tabindex = "1" })
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Duyuru Yayın Bitiş Tarihi</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container position-relative d-flex align-items-center">
+                                <span class="position-absolute mx-4">
+                                    <i class="bi bi-calendar-date fs-2"></i>
+                                </span>
+                                @Html.TextBoxFor(model => model.YayinBitisTarih, new { @class = "form-control form-control-solid flatpickr-input genelTARIH ps-13", placeholder="Duyuru Yayın Bitiş Tarihi", @tabindex = "1" })
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Keyword</label>
+                            <div class="col-lg-8 fv-row">
+                                @Html.TextBoxFor(model=> model.KeywordAlani, new { @class="form-control form-control-lg form-control-solid", @placeholder="Keyword", @tabindex = "1" })
+                                @*<tags class="tagify form-control form-control-solid" tabindex="-1" aria-expanded="false">
+                            <tag title="Keyword 1" contenteditable="false" spellcheck="false" tabindex="-1" class="tagify__tag tagify--noAnim"
+                            value="Keyword 1">
+                            <x title="" class="tagify__tag__removeBtn" role="button" aria-label="remove tag"></x>
+                            <div><span class="tagify__tag-text">Keyword 1</span></div>
+                            </tag>
+                            <tag title="Keyword 2" contenteditable="false" spellcheck="false" tabindex="-1" class="tagify__tag tagify--noAnim"
+                            value="Keyword 2">
+                            <x title="" class="tagify__tag__removeBtn" role="button" aria-label="remove tag"></x>
+                            <div><span class="tagify__tag-text">Keyword 2</span></div>
+                            </tag>
+                            </tags>*@
+                            </div>
+                        </div>
+                        <div class="row mb-0">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Ayarlar</label>
+                            <div class="col-lg-8 d-flex align-items-center">
+                                <div class="fv-row mb-15 fv-plugins-icon-container fv-plugins-bootstrap5-row-valid">
+                                    <div>
+                                        <div class="d-flex">
+                                            <label class="col-md-6 form-check form-check-custom form-check-solid me-5">
+                                                <span class="form-check-label fw-semibold me-4">
+                                                    Duyuru Slider Sırası
+                                                </span>
+                                                <div class="position-relative w-lg-150px" id="kt_modal_finance_setup" data-kt-dialer="true" data-kt-dialer-min="1" data-kt-dialer-max="50000">
+                                                    <button type="button" id="btnSliderSirasiAzalt"
+                                                        class="btn btn-icon btn-active-color-gray-700 position-absolute translate-middle-y top-50 start-0">
+                                                        <span class="svg-icon svg-icon-1">
+                                                            <i class="bi bi-dash-circle fs-4"></i>
+                                                        </span>
+                                                    </button>
+                                                    @Html.TextBoxFor(model => model.SliderSirasi,new { @class = "form-control form-control-solid border-0 ps-12", placeholder="Duyuru Slider Sırası"})
+                                                    <button type="button" id="btnSliderSirasiArtir" class="btn btn-icon btn-active-color-gray-700 position-absolute translate-middle-y top-50 end-0">
+                                                        <span class="svg-icon svg-icon-1">
+                                                            <i class="bi bi-plus-circle fs-4"></i>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </label>
+                                            <label class="col-md-6 form-check form-check-custom form-check-solid me-5">
+                                                <span class="form-check-label fw-semibold me-4">
+                                                    Duyuru Slider Göster
+                                                </span>
+                                                <input class="form-check-input h-20px w-20px" type="checkbox" id="chckSliderGoster" checked>
+                                                @Html.TextBoxFor(model => model.SliderGoster, new{@class="d-none", @id="txtSliderGoster"})
+                                            </label>
+                                        </div>
+                                        <div class="d-flex">
+                                            <label class="col-md-6 form-check form-check-custom form-check-solid me-5">
+                                                <span class="form-check-label fw-semibold me-4">Duyuru Yorum Ekle</span>
+                                                <input class="form-check-input h-20px w-20px" type="checkbox" id="chckYorumEkle" checked>
+                                                @Html.TextBoxFor(model => model.YorumEkle, new{@class="d-none", @id="txtYorumEkle"})
+                                            </label>
+                                            <label class="col-md-6 form-check form-check-custom form-check-solid me-5">
+                                                <span class="form-check-label fw-semibold me-4">
+                                                    Duyuru Beğenme
+                                                </span>
+                                                <input class="form-check-input h-20px w-20px" type="checkbox" id="chckBegenme" checked>
+                                                @Html.TextBoxFor(model => model.Begenme, new{@class="d-none", @id="txtBegenme"})
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="fv-plugins-message-container invalid-feedback"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-end py-6 px-9">
+                        @{
+                            if (Model.Id > 0) {
+                                <div class="btn btn-light btn-active-light-danger me-2" id="btnDuyuruSil">Sil</div>
+                                <div class="btn btn-primary btnDuzenle" id="btnDuyuruGuncelle">Güncelle</div>
+                            } else {
+                                <div type="reset" class="btn btn-light btn-active-light-primary me-2" id="btnDuyuruTemizle">Temizle</div>
+                                <div class="btn btn-primary btnDuzenle" id="btnDuyuruKaydet">Kaydet</div>
+                            }
+                        }
+                    </div>
+                    <input type="hidden">
+                }
+            </div>
+        </div>
+    </div>
+</div>

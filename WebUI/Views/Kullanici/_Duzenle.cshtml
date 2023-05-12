@@ -1,0 +1,247 @@
+﻿@using ModelDto.Dtos.Kullanici;
+@using Newtonsoft.Json;
+@model DtoKullaniciGuncelle
+
+<script src="~/assets/js/uploaders/fileinput/plugins/purify.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/plugins/sortable.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/plugins/piexif.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/fileinput.min.js"></script>
+<script src="~/assets/js/uploaders/fileinput/locales/tr.js"></script>
+
+<div id="kt_app_content" class="app-content  flex-column-fluid ">
+    <div id="kt_app_content_container" class="app-container  container-fluid ">
+        <div class="card mb-5 mb-xl-10">
+            <div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse"
+                 data-bs-target="#kt_account_profile_details" aria-expanded="true"
+                 aria-controls="kt_account_profile_details">
+                <div class="card-title m-0">
+                    <h3 class="fw-bold m-0">Kullanıcı Detayları</h3>
+                </div>
+            </div>
+            <div id="" class="collapse show">
+                @using (Html.BeginForm("Index", "Kayit", FormMethod.Post, new { @id = "frmKullaniciKaydet", enctype = "multipart/form-data", autocomplete = "off" }))
+                {
+                    @Html.HiddenFor(model=>model.Id)
+                    @Html.HiddenFor(model=>model.Resim)
+                    <div class="d-none" id="Cinsiyet">@Model.Cinsiyet</div>
+                    <div class="d-none" id="MedeniDurum">@Model.MedeniDurum</div>
+                    <div class="d-none" id="AskerlikDurum">@Model.AskerlikDurum</div>
+                    <div class="d-none" id="Parola">@Model.Parola</div>
+                    <div class="card-body border-top p-9">
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Kullanıcı TC</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.TC,new { @class = "form-control form-control-lg form-control-solid", placeholder="Kullanıcı TC", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Kullanıcı Adı</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.Ad,new { @class = "form-control form-control-lg form-control-solid", placeholder="Kullanıcı Adı", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Kullanıcı Soyadı</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.Soyad,new { @class = "form-control form-control-lg form-control-solid", placeholder="Kullanıcı Soyadı", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Doğum Tarihi</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container position-relative d-flex align-items-center">
+                                <span class="position-absolute mx-4">
+                                    <i class="bi bi-calendar-date fs-2"></i>
+                                </span>
+                                @Html.TextBoxFor(model => model.DogumTarihi, new { @class = "form-control form-control-solid flatpickr-input genelTARIH ps-13", placeholder="Doğum Tarihi", @tabindex = "1" })
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Eposta</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.Eposta,new { @class = "form-control form-control-lg form-control-solid", placeholder="Eposta", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Parola</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.PasswordFor(model => model.Parola, new { @class = "form-control form-control-solid", id="parola", autocomplete = "nope", placeholder="Parola", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Cinsiyet</label>
+                            <div class="col-lg-8 fv-row" data-select2-id="select2-data-143-4dsl">
+                                <select id="cinsiyetSelect" class="ddlselect2Genel form-select form-select-solid form-select-lg" name="Cinsiyet">
+                                    <option></option>
+                                    <option value="Kadın">Kadın</option>
+                                    <option value="Erkek">Erkek</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Medeni Durum</label>
+                            <div class="col-lg-8 fv-row" data-select2-id="select2-data-143-4dsl">
+                                <select id="medeniDurumSelect" class="ddlselect2Genel form-select form-select-solid form-select-lg" name="MedeniDurum">
+                                    <option></option>
+                                    <option value="Bekar">Bekar</option>
+                                    <option value="Evli">Evli</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Askerlik Durum</label>
+                            <div class="col-lg-8 fv-row" data-select2-id="select2-data-143-4dsl">
+                                <select id="askerlikDurumSelect" class="ddlselect2Genel form-select form-select-solid form-select-lg" name="AskerlikDurum">
+                                    <option></option>
+                                    <option value="Muaf">Muaf</option>
+                                    <option value="Tecilli">Tecilli</option>
+                                    <option value="Yapıldı">Yapıldı</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label  class="col-lg-4 col-form-label required fw-semibold fs-6">Kullanıcı Resmi</label>
+                            <div class="col-lg-8 mb-auto">
+                                <input type="file" class="file-input" data-fouc accept=".png, .jpg, .jpeg" />
+                                @{
+                                    if (Model.YuklenmisDosya != null && Model.YuklenmisDosya.Count > 0)
+                                    {
+                                        <div class="mt-5">
+                                            <a class="btn btn-light-info btn-sm" id="btnKullaniciYuklenmisDosya"><i class="bi bi-file-text me-2"></i><span>@Model.YuklenmisDosya.Count</span> adet yüklenmiş dosya bulunmakta.</a>
+                                            <div class="d-none">@JsonConvert.SerializeObject(Model.YuklenmisDosya)</div>
+                                        </div>
+                                    }
+                                }
+                                <div class="form-text">Geçerli dosya türleri: png, jpg, jpeg</div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Kullanıcı Birimi</label>
+                            <div class="col-lg-8 fv-row" data-select2-id="select2-data-143-4dsl">
+                                @Html.DropDownListFor(model => model.BirimId, (SelectList)ViewBag.birimListesi, "", new { @class = "ddlselect2Genel form-select form-select-solid form-select-lg" })
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Kullanıcı Görevi</label>
+                            <div class="col-lg-8 fv-row" data-select2-id="select2-data-143-4dsl">
+                                @Html.DropDownListFor(model => model.GorevId, (SelectList)ViewBag.gorevListesi, "", new { @class = "ddlselect2Genel form-select form-select-solid form-select-lg" })
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Adres</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.Adres,new { @class = "form-control form-control-lg form-control-solid", placeholder="Adres", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Cep Telefonu</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.CepTelefon,new { @class = "form-control form-control-lg form-control-solid", placeholder="Cep Telefonu", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label  fw-semibold fs-6">Ev Telefonu</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.EvTelefon,new { @class = "form-control form-control-lg form-control-solid", placeholder="Ev Telefonu", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label  fw-semibold fs-6">Dahili No</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.DahiliNo,new { @class = "form-control form-control-lg form-control-solid", placeholder="Dahili No", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Yakını Ad Soyad</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.YakiniAdSoyad,new { @class = "form-control form-control-lg form-control-solid", placeholder="Yakını Ad Soyad", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Yakını Telefon</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.YakiniTelefon,new { @class = "form-control form-control-lg form-control-solid", placeholder="Yakını Telefon", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Kan Grubu</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.KanGrubu,new { @class = "form-control form-control-lg form-control-solid", placeholder="Kan Grubu", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label  fw-semibold fs-6">Firma Sicil No</label>
+                            <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                                @Html.TextBoxFor(model => model.FirmaSicilNo,new { @class = "form-control form-control-lg form-control-solid", placeholder="Firma Sicil No", @tabindex = "1" })
+                                <div class="fv-plugins-message-container invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="row mb-6">
+                            <label class="col-lg-4 col-form-label required fw-semibold fs-6">Çalışma Türü</label>
+                            <div class="col-lg-8 fv-row" data-select2-id="select2-data-143-4dsl">
+                                @Html.DropDownListFor(model => model.CalismaTurId, (SelectList)ViewBag.calismaListesi, "", new { @class = "ddlselect2Genel form-select form-select-solid form-select-lg" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-end py-6 px-9">
+                        @{
+                            if (Model.Id > 0)
+                            {
+                                <div class="btn btn-light btn-active-light-danger me-2" id="btnKullaniciSil">Sil</div>
+                                <div class="btn btn-primary btnDuzenle" id="btnKullaniciGuncelle">Güncelle</div>
+                            }
+                            else
+                            {
+                                <div type="reset" class="btn btn-light btn-active-light-primary me-2" id="btnKullaniciTemizle">Temizle</div>
+                                <div class="btn btn-primary btnDuzenle" id="btnKullaniciKaydet">Kaydet</div>
+                            }
+                        }
+                    </div>
+                    @*<input type="hidden">
+                    <div class="validationError d-none text-left">
+                        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                    </div>*@
+                }
+            </div>
+        </div>
+    </div>    
+</div>
+<div class="modal" id="modalKullaniciDosyaYukle" tabindex="-1" style="display: none;">
+    <div class="modal-dialog modal-dialog-centered mw-650px">
+        <div class="modal-content">
+            <form class="form" action="none" id="formKullaniciDosyaYukle">
+                <div class="modal-header">
+                    <h2 class="fw-bold">Dosya Yükle</h2>
+                    <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
+                        <span class="svg-icon svg-icon-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)"
+                                      fill="currentColor"></rect>
+                                <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)"
+                                      fill="currentColor"></rect>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="modal-body pt-10 pb-15 px-lg-17">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
